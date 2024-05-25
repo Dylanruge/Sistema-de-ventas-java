@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora de Nómina</title>
     <style>
         body {
@@ -92,7 +91,7 @@
 <body>
     <div class="container">
         <h1>Calculadora de Nómina</h1>
-        <form action="paginaDestino" method="post">
+        <form action="resultado.jsp" method="post">
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" required>
             
@@ -109,9 +108,7 @@
             </select>
             
             <label for="diasTrabajados">Días Trabajados:</label>
-            <input type="number" id="diasTrabajados" name="diasTrabajados" min="1"
-                   
-                   max="30" required>
+            <input type="number" id="diasTrabajados" name="diasTrabajados" min="1" max="30" required>
             
             <div class="btn-group">
                 <button type="submit">Calcular</button>
