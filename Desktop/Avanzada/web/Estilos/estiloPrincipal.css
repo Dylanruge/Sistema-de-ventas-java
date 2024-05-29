@@ -1,0 +1,22 @@
+body{
+    background-image: url(Imgs/fondoPrincipal.jpg);
+    backdrop-filter: blur(5px);
+    background-size: 100% 100vh; 
+}
+*{
+    font-family: Garamond;
+}
+.frame{
+    border-radius: 20px;
+}
+nav{
+    background-color: #006666;
+}
+.dropdown-menu{
+    border-radius: 20px;
+    background-color: #006666;
+}
+.dropdown-item:hover,.btn:hover{
+    background-color: #009999;
+    border-radius: 20px;
+}

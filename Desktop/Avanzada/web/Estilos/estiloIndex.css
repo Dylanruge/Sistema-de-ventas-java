@@ -1,0 +1,32 @@
+body{
+    background-image: url(Imgs/fondoIndex.jpg);
+    background-size: 100% 100vh; 
+}
+h3{
+    font-family: Cooper Black;
+}
+*{
+    font-family: Garamond;
+    font-size: large;
+}
+.card{
+    border-radius: 20px;
+    box-shadow: 15px 15px 10px black;
+    background: none;
+    color: white;
+}
+.card::before{
+    content: "";
+    position: absolute;
+    border-radius: 20px;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    opacity: .6;
+}
+.form-control{
+    font-weight: bold;
+}
